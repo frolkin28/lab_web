@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #510951;
+}
+
+.header {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.main-area {
+    display: block;
+    height: 100%;
+    padding: 100px;
+}
+
+.footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px 0px;
+}
+
+.king {
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+}
+
+.card:nth-of-type(1) {
+    top: 29%;
+    position: absolute;
+    left: 48%;
+}
+
+.card:nth-of-type(2) {
+    position: absolute;
+    left: 48%;
+    top: 61%;
+}
+
+.card:nth-of-type(3) {
+    position: absolute;
+    top: 45%;
+    left: 43%;
+}
+
+.card:nth-of-type(4) {
+    position: absolute;
+    top: 45%;
+    left: 53%;
+}
+
+.card:nth-of-type(6) {
+    top: 29%;
+    position: absolute;
+    left: 42%;
+    transform: rotate(-45deg);
+}
+
+.card:nth-of-type(7) {
+    top: 29%;
+    position: absolute;
+    left: 54%;
+    transform: rotate(45deg);
+}
+
+.card:nth-of-type(8) {
+    top: 61%;
+    position: absolute;
+    left: 42%;
+    transform: rotate(45deg);
+}
+
+.card:nth-of-type(9) {
+    top: 61%;
+    position: absolute;
+    left: 54%;
+    transform: rotate(-45deg);
+}
